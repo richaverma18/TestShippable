@@ -1,0 +1,26 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richaverma18/TestShippable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richaverma18/TestShippable/issues"
+  },
+  "homepage": "https://github.com/richaverma18/TestShippable#readme",
+  "engines": {
+    "node": "4.2.3"
+  }
+}
