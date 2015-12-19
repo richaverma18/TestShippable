@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // for deploying app in heroku
 var port = process.env.PORT || 8080;
 
-// get call to load the form:
+// GET call to load the form:
 app.get('/', function(req, res) {
   displayForm(res);
 });
