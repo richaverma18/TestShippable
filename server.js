@@ -5,8 +5,7 @@ var app     = express();
 var fs = require('fs');
 var request = require("request");
 var cheerio = require('cheerio');
-//Note that in version 4 of express, express.bodyParser() was
-//deprecated in favor of a separate 'body-parser' module.
+
 
 app.use(bodyParser.urlencoded({ extended: true })); 
 
